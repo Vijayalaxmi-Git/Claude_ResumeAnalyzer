@@ -1,0 +1,21 @@
+# Environment variables - NEVER push this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# Data files
+data/results.csv
+
+# OS files
+.DS_Store
+Thumbs.db
