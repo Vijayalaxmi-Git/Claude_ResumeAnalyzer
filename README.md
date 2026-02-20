@@ -28,10 +28,8 @@ Python, Streamlit and Claude API by Anthropic.
 2. Create a virtual environment
 3. Install dependencies: `pip install -r requirements.txt`
 4. Create `.env` file: `ANTHROPIC_API_KEY=your_key_here`
-5. Run: `streamlit run app.py`
-```
+5. Run: 'streamlit run app.py'
 
 **3. Save it:**
-```
 
 Ctrl + S

@@ -48,7 +48,7 @@ def analyze_resume(resume_text, job_description=""):
     
     # Call Claude API
     message = client.messages.create(
-        model="claude-opus-4-6",
+        model="claude-haiku-4-5-20251001",#"claude-opus-4-6",
         max_tokens=1024,
         system=SYSTEM_PROMPT,
         messages=[
