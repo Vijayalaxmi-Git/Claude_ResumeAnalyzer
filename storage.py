@@ -151,5 +151,5 @@ def delete_candidate(candidate_name, date_analyzed):
         (df["date_analyzed"] == date_analyzed)
     )]
     
-    # Save back to CSV
+# Save back to CSV
     df.to_csv(CSV_FILE, index=False)
